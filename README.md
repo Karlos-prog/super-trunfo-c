@@ -1,25 +1,25 @@
-🃏 Super Trunfo de Países — Linguagem C
+Super Trunfo de Países — Linguagem C
 
-Projeto desenvolvido em linguagem C como parte do desafio prático da disciplina, com o objetivo de aplicar conceitos fundamentais da programação estruturada, entrada e saída de dados, operadores matemáticos e lógicos, conversão de tipos e comparação de valores.
+Este projeto foi desenvolvido em linguagem C como parte de um desafio prático acadêmico, com o objetivo de aplicar conceitos fundamentais da programação estruturada, entrada e saída de dados, operadores matemáticos, operadores relacionais, conversão de tipos e organização de código.
 
-O projeto evolui em três níveis: novato, aventureiro e mestre.
+O sistema simula etapas do jogo Super Trunfo, permitindo o cadastro, cálculo de atributos e comparação entre cartas de cidades.
 
-🎯 Objetivo do Projeto
+Objetivo do Projeto
 
-Criar um sistema simples do jogo Super Trunfo, permitindo:
+Desenvolver um programa em linguagem C capaz de:
 
-Cadastro de duas cartas de cidades
+Cadastrar duas cartas do Super Trunfo
 
-Cálculo de atributos derivados
+Calcular atributos derivados das cidades
 
-Comparação entre as cartas
+Comparar as cartas atributo por atributo
 
-Determinação da carta vencedora por atributo
+Exibir os resultados de forma clara e organizada
 
-🧩 Funcionalidades Implementadas
-✔️ Nível Novato
+Funcionalidades Implementadas
+Nível Novato
 
-Leitura dos dados de duas cartas:
+Leitura dos seguintes dados para duas cartas:
 
 Estado
 
@@ -29,27 +29,27 @@ Nome da cidade
 
 População
 
-Área
+Área territorial
 
-PIB
+Produto Interno Bruto (PIB)
 
-Pontos turísticos
+Número de pontos turísticos
 
-Exibição organizada das informações
+Exibição formatada das informações cadastradas
 
-✔️ Nível Aventureiro
+Nível Aventureiro
 
-Cálculo da Densidade Populacional
+Cálculo da densidade populacional (população / área)
 
-Cálculo do PIB per Capita
+Cálculo do PIB per capita (PIB / população)
 
 Exibição dos valores calculados com duas casas decimais
 
-✔️ Nível Mestre
+Nível Mestre
 
-População armazenada como unsigned long int
+Armazenamento da população utilizando o tipo unsigned long int
 
-Cálculo do Super Poder, somando:
+Cálculo do atributo Super Poder, composto pela soma dos seguintes valores:
 
 População
 
@@ -57,18 +57,18 @@ População
 
 PIB
 
-Pontos turísticos
+Número de pontos turísticos
 
 PIB per capita
 
 Inverso da densidade populacional
 
-Comparação entre as duas cartas atributo por atributo
+Comparação entre as duas cartas para cada atributo numérico
 
-Exibição do resultado das comparações:
+Exibição dos resultados das comparações utilizando:
 
-1 → Carta 1 venceu
+Valor 1 para indicar vitória da Carta 1
 
-0 → Carta 2 venceu
+Valor 0 para indicar vitória da Carta 2
 
-⚠️ O projeto respeita a restrição de não utilizar estruturas de repetição ou decisão (for, while, if, else).
+O projeto respeita a restrição de não utilização de estruturas de repetição ou estruturas de decisão, conforme especificado no desafio.
